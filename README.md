@@ -1,2 +1,24 @@
-# rtl_parameterized_integer_alu
-Parameterized combinational Integer ALU in Verilog supporting arithmetic, logical, comparison operations, and processor status flags with self-checking verification.
+# Version History
+
+## V1
+
+- Monolithic Integer ALU
+- ADD
+- SUB
+- AND
+- OR
+- XOR
+- SLT
+- Zero Flag
+- Carry Flag
+- Overflow Flag
+- Negative Flag
+
+---
+
+## V2 (Current)
+
+- Arithmetic Unit extracted into a dedicated module
+- Parameterized RTL
+- Independent self-checking verification
+- Modular processor-oriented architecture
