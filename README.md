@@ -1,24 +1,25 @@
-# Version History
+## V2 Progress
 
-## V1
+Current modular architecture
 
-- Monolithic Integer ALU
-- ADD
-- SUB
-- AND
-- OR
-- XOR
-- SLT
-- Zero Flag
-- Carry Flag
-- Overflow Flag
-- Negative Flag
+```
+Integer ALU
 
----
+├── Arithmetic Unit ✅
 
-## V2 (Current)
+├── Logic Unit ✅
 
-- Arithmetic Unit extracted into a dedicated module
-- Parameterized RTL
-- Independent self-checking verification
-- Modular processor-oriented architecture
+├── Shift Unit (Next)
+
+├── Compare Unit
+
+└── Flag Generator
+```
+
+Current Completion
+
+- Arithmetic Unit ✔
+- Logic Unit ✔
+- Self-checking Verification ✔
+- GTKWave Verification ✔
+- Parameterized RTL ✔
